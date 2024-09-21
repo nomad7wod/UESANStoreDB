@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UESAN.StoreDB.API", "UESANStoreDB\UESAN.StoreDB.API.csproj", "{6DD3527C-1232-4D76-B740-CCA68838C180}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AB14DFBE-4EB8-4DB3-8CB5-C5F928407605} = {AB14DFBE-4EB8-4DB3-8CB5-C5F928407605}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UESAN.StoreDB.DOMAIN", "Library\UESAN.StoreDB.DOMAIN.csproj", "{AB14DFBE-4EB8-4DB3-8CB5-C5F928407605}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DD3527C-1232-4D76-B740-CCA68838C180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DD3527C-1232-4D76-B740-CCA68838C180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DD3527C-1232-4D76-B740-CCA68838C180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DD3527C-1232-4D76-B740-CCA68838C180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB14DFBE-4EB8-4DB3-8CB5-C5F928407605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB14DFBE-4EB8-4DB3-8CB5-C5F928407605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB14DFBE-4EB8-4DB3-8CB5-C5F928407605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB14DFBE-4EB8-4DB3-8CB5-C5F928407605}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D60F785-2613-45A9-947E-49EE92A0AE93}
+	EndGlobalSection
+EndGlobal
